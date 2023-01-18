@@ -900,3 +900,1580 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2023.01.18-18.21.35:418][  0]LogContentStreaming: Texture pool size now 1000 MB
 [2023.01.18-18.21.35:438][  1]LogRenderer: Reallocating scene render targets to support 1048x664 Format 10 NumSamples 1 (Frame:5).
 [2023.01.18-18.21.35:495][  4]LogSlate: Took 0.000220 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.01.18-18.21.53:400][458]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2023.01.18-18.21.55:115][649]LogTemp: Repeating last play command: Selected Viewport
+[2023.01.18-18.21.55:119][649]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.18-18.21.55:119][649]PIE: New page: PIE session: Minimal_Default (18 sty 2023, 20:21:55)
+[2023.01.18-18.21.55:120][649]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2023.01.18-18.21.55:121][649]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2023.01.18-18.21.55:121][649]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2023.01.18-18.21.55:205][649]LogPlayLevel: PIE: StaticDuplicateObject took: (0.083857s)
+[2023.01.18-18.21.55:206][649]LogAIModule: Creating AISystem for world Minimal_Default
+[2023.01.18-18.21.55:206][649]LogPlayLevel: PIE: World Init took: (0.001060s)
+[2023.01.18-18.21.55:206][649]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.085060s)
+[2023.01.18-18.21.55:212][649]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2023.01.18-18.21.55:214][649]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2023.01.18-18.21.55:214][649]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.18-18.21.55:214][649]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.18-18.21.55:214][649]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.18-18.21.55:214][649]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.18-18.21.55:214][649]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.18-18.21.55:214][649]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.01.18-18.21.55:214][649]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.18-18.21.55:214][649]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.18-18.21.55:215][649]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.18-18.21.55:215][649]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.18-18.21.55:215][649]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.18-18.21.55:215][649]LogAudioMixer: Display: Initializing audio mixer.
+[2023.01.18-18.21.55:219][649]LogAudioMixer: Display: 0: FrontLeft
+[2023.01.18-18.21.55:219][649]LogAudioMixer: Display: 1: FrontRight
+[2023.01.18-18.21.55:231][649]LogAudioMixer: Display: Using Audio Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2023.01.18-18.21.55:231][649]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.18-18.21.55:231][649]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.18-18.21.55:231][649]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.18-18.21.55:231][649]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.01.18-18.21.55:231][649]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.01.18-18.21.55:231][649]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.01.18-18.21.55:232][649]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.01.18-18.21.55:232][649]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.01.18-18.21.55:232][649]LogInit: FAudioDevice initialized.
+[2023.01.18-18.21.55:232][649]LogAudio: Display: Audio Device (ID: 2) registered with world 'Minimal_Default'.
+[2023.01.18-18.21.55:236][649]LogLoad: Game class is 'GameModeBase'
+[2023.01.18-18.21.55:239][649]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2023.01.18-19.21.55
+[2023.01.18-18.21.55:239][649]LogWorld: Bringing up level for play took: 0.002355
+[2023.01.18-18.21.55:239][649]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2023.01.18-18.21.55:242][649]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2023.01.18-18.21.55:242][649]PIE: Server logged in
+[2023.01.18-18.21.55:243][649]PIE: Play in editor total start time 0,124 seconds.
+[2023.01.18-18.21.55:993][721]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.18-18.21.55:993][721]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2023.01.18-18.21.55:993][721]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2023.01.18-18.21.55:994][721]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.18-18.21.56:002][721]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.18-18.21.56:007][721]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.18-18.21.56:010][721]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.01.18-18.21.56:011][721]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.01.18-18.21.56:011][721]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.01.18-18.21.56:013][721]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.18-18.21.56:016][721]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2023.01.18-18.21.56:061][723]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2023.01.18-18.21.58:013][951]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2023.01.18-18.23.59:123][659]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2023.01.18-18.24.12:686][192]Cmd: TRANSACTION UNDO
+[2023.01.18-18.24.12:686][192]LogEditorTransaction: Undo Select Brush Surface
+[2023.01.18-18.24.12:764][192]LogSlate: Took 0.000170 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.01.18-18.24.17:052][578]Cmd: TRANSACTION UNDO
+[2023.01.18-18.24.17:052][578]LogEditorTransaction: Undo Move Actors
+[2023.01.18-18.24.20:413][839]Cmd: TRANSACTION UNDO
+[2023.01.18-18.24.20:413][839]LogEditorTransaction: Undo Move Actors
+[2023.01.18-18.25.28:902][429]LogSlate: Window 'Select Path' being destroyed
+[2023.01.18-18.25.29:479][429]LogStaticMesh: Building static mesh Maze2...
+[2023.01.18-18.25.29:575][429]LogStaticMesh: Built static mesh [0.10s] /Game/Maze2.Maze2
+[2023.01.18-18.25.29:594][429]LogActorFactory: Actor Factory created Maze2
+[2023.01.18-18.25.29:611][429]LogEditor: Error: Actor 'Brush /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BoxBrush' is marked pending kill and cannot be converted
+[2023.01.18-18.25.29:611][429]LogEditor: Error: Actor 'Brush /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BoxBrush4' is marked pending kill and cannot be converted
+[2023.01.18-18.25.29:611][429]LogEditor: Error: Actor 'Brush /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BoxBrush5' is marked pending kill and cannot be converted
+[2023.01.18-18.25.29:611][429]LogEditor: Error: Actor 'Brush /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.SphereBrush9' is marked pending kill and cannot be converted
+[2023.01.18-18.25.29:611][429]LogEditor: Error: Actor 'Brush /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.SphereBrush11' is marked pending kill and cannot be converted
+[2023.01.18-18.25.29:611][429]LogEditor: Error: Actor 'Brush /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.SphereBrush12' is marked pending kill and cannot be converted
+[2023.01.18-18.25.29:611][429]LogEditor: Error: Actor 'Brush /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.SphereBrush13' is marked pending kill and cannot be converted
+[2023.01.18-18.25.29:611][429]LogEditor: Error: Actor 'Brush /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.SphereBrush' is marked pending kill and cannot be converted
+[2023.01.18-18.25.29:611][429]LogEditor: Error: Actor 'Brush /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.SphereBrush2' is marked pending kill and cannot be converted
+[2023.01.18-18.25.29:611][429]LogEditor: Error: Actor 'Brush /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.SphereBrush4' is marked pending kill and cannot be converted
+[2023.01.18-18.25.29:611][429]LogEditor: Error: Actor 'Brush /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.SphereBrush3' is marked pending kill and cannot be converted
+[2023.01.18-18.25.29:611][429]LogEditor: Error: Actor 'Brush /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.SphereBrush5' is marked pending kill and cannot be converted
+[2023.01.18-18.25.29:611][429]LogEditor: Error: Actor 'Brush /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.SphereBrush6' is marked pending kill and cannot be converted
+[2023.01.18-18.25.29:611][429]LogEditor: Error: Actor 'Brush /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.SphereBrush8' is marked pending kill and cannot be converted
+[2023.01.18-18.25.29:611][429]LogEditor: Error: Actor 'Brush /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.SphereBrush10' is marked pending kill and cannot be converted
+[2023.01.18-18.25.29:611][429]LogEditor: Error: Actor 'Brush /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.SphereBrush7' is marked pending kill and cannot be converted
+[2023.01.18-18.25.29:611][429]LogEditor: Error: Actor 'Brush /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BoxBrush25' is marked pending kill and cannot be converted
+[2023.01.18-18.25.29:611][429]LogEditor: Error: Actor 'Brush /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BoxBrush24' is marked pending kill and cannot be converted
+[2023.01.18-18.25.29:611][429]LogEditor: Error: Actor 'Brush /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BoxBrush23' is marked pending kill and cannot be converted
+[2023.01.18-18.25.29:611][429]LogEditor: Error: Actor 'Brush /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BoxBrush21' is marked pending kill and cannot be converted
+[2023.01.18-18.25.29:611][429]LogEditor: Error: Actor 'Brush /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BoxBrush22' is marked pending kill and cannot be converted
+[2023.01.18-18.25.29:611][429]LogEditor: Error: Actor 'Brush /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BoxBrush20' is marked pending kill and cannot be converted
+[2023.01.18-18.25.29:612][429]LogEditor: Error: Actor 'Brush /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BoxBrush19' is marked pending kill and cannot be converted
+[2023.01.18-18.25.29:612][429]LogEditor: Error: Actor 'Brush /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BoxBrush18' is marked pending kill and cannot be converted
+[2023.01.18-18.25.29:612][429]LogEditor: Error: Actor 'Brush /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BoxBrush17' is marked pending kill and cannot be converted
+[2023.01.18-18.25.29:612][429]LogEditor: Error: Actor 'Brush /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BoxBrush16' is marked pending kill and cannot be converted
+[2023.01.18-18.25.29:612][429]LogEditor: Error: Actor 'Brush /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BoxBrush12' is marked pending kill and cannot be converted
+[2023.01.18-18.25.29:612][429]LogEditor: Error: Actor 'Brush /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BoxBrush13' is marked pending kill and cannot be converted
+[2023.01.18-18.25.29:612][429]LogEditor: Error: Actor 'Brush /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BoxBrush15' is marked pending kill and cannot be converted
+[2023.01.18-18.25.29:612][429]LogEditor: Error: Actor 'Brush /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BoxBrush11' is marked pending kill and cannot be converted
+[2023.01.18-18.25.29:612][429]LogEditor: Error: Actor 'Brush /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BoxBrush9' is marked pending kill and cannot be converted
+[2023.01.18-18.25.29:612][429]LogEditor: Error: Actor 'Brush /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BoxBrush10' is marked pending kill and cannot be converted
+[2023.01.18-18.25.29:612][429]LogEditor: Error: Actor 'Brush /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BoxBrush6' is marked pending kill and cannot be converted
+[2023.01.18-18.25.29:612][429]LogEditor: Error: Actor 'Brush /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BoxBrush7' is marked pending kill and cannot be converted
+[2023.01.18-18.25.29:612][429]LogEditor: Error: Actor 'Brush /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BoxBrush8' is marked pending kill and cannot be converted
+[2023.01.18-18.25.29:612][429]LogEditor: Error: Actor 'Brush /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BoxBrush2' is marked pending kill and cannot be converted
+[2023.01.18-18.25.29:612][429]LogEditor: Error: Actor 'Brush /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BoxBrush3_1' is marked pending kill and cannot be converted
+[2023.01.18-18.25.29:612][429]EditorErrors: New page: Actor Reattachment
+[2023.01.18-18.25.29:617][429]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2023.01.18-18.25.31:271][611]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2023.01.18-18.27.31:183][827]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Maze2)
+[2023.01.18-18.27.31:231][829]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2023.01.18-18.27.32:510][971]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Maze2.Maze2
+[2023.01.18-18.27.32:566][971]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/EditorMaterials/AssetViewer/EpicQuadPanorama_CC+EV1.EpicQuadPanorama_CC+EV1', its maximum texture size has been explicitly set to 512.
+[2023.01.18-18.27.32:632][971]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/MapTemplates/Sky/SunsetAmbientCubemap.SunsetAmbientCubemap', its maximum texture size has been explicitly set to 512.
+[2023.01.18-18.27.32:904][971]LogRenderer: Reallocating scene render targets to support 1208x808 Format 10 NumSamples 1 (Frame:1).
+[2023.01.18-18.27.32:904][971]LogSlate: Took 0.000202 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.01.18-18.29.40:192][584]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maze2" FILE="../../../../../../Users/PC/Documents/GitHub/Projekt1---labirynt-z-kulk-/NiePatrycjaPilarz/Content/Maze2.uasset" SILENT=true
+[2023.01.18-18.29.40:211][584]LogSavePackage: Moving '../../../../../../Users/PC/Documents/GitHub/Projekt1---labirynt-z-kulk-/NiePatrycjaPilarz/Saved/Maze26C4A611447F30349ED0FAAA093B192A7.tmp' to '../../../../../../Users/PC/Documents/GitHub/Projekt1---labirynt-z-kulk-/NiePatrycjaPilarz/Content/Maze2.uasset'
+[2023.01.18-18.29.40:218][584]AssetCheck: New page: Asset Save: Maze2
+[2023.01.18-18.29.40:218][584]LogContentValidation: Display: Validating StaticMesh /Game/Maze2.Maze2
+[2023.01.18-18.29.41:749][756]LogSlate: Window 'Maze2' being destroyed
+[2023.01.18-18.29.41:752][756]LogSlate: Window 'Maze2' being destroyed
+[2023.01.18-18.29.41:803][756]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2023.01.18-18.29.41:803][756]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.18-18.29.46:340][280]LogTemp: Repeating last play command: Selected Viewport
+[2023.01.18-18.29.46:343][280]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.18-18.29.46:343][280]PIE: New page: PIE session: Minimal_Default (18 sty 2023, 20:29:46)
+[2023.01.18-18.29.46:383][280]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2023.01.18-18.29.46:386][280]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002683s)
+[2023.01.18-18.29.46:386][280]LogAIModule: Creating AISystem for world Minimal_Default
+[2023.01.18-18.29.46:387][280]LogPlayLevel: PIE: World Init took: (0.000841s)
+[2023.01.18-18.29.46:387][280]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003629s)
+[2023.01.18-18.29.46:392][280]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2023.01.18-18.29.46:398][280]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2023.01.18-18.29.46:398][280]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.18-18.29.46:398][280]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.18-18.29.46:398][280]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.18-18.29.46:398][280]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.18-18.29.46:398][280]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.18-18.29.46:398][280]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.01.18-18.29.46:398][280]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.18-18.29.46:398][280]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.18-18.29.46:398][280]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.18-18.29.46:398][280]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.18-18.29.46:398][280]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.18-18.29.46:398][280]LogAudioMixer: Display: Initializing audio mixer.
+[2023.01.18-18.29.46:403][280]LogAudioMixer: Display: 0: FrontLeft
+[2023.01.18-18.29.46:403][280]LogAudioMixer: Display: 1: FrontRight
+[2023.01.18-18.29.46:415][280]LogAudioMixer: Display: Using Audio Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2023.01.18-18.29.46:415][280]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.18-18.29.46:415][280]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.18-18.29.46:415][280]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.18-18.29.46:415][280]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.01.18-18.29.46:415][280]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.01.18-18.29.46:415][280]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.01.18-18.29.46:416][280]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.01.18-18.29.46:416][280]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.01.18-18.29.46:416][280]LogInit: FAudioDevice initialized.
+[2023.01.18-18.29.46:416][280]LogAudio: Display: Audio Device (ID: 3) registered with world 'Minimal_Default'.
+[2023.01.18-18.29.46:426][280]LogLoad: Game class is 'GameModeBase'
+[2023.01.18-18.29.46:428][280]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2023.01.18-19.29.46
+[2023.01.18-18.29.46:428][280]LogWorld: Bringing up level for play took: 0.000496
+[2023.01.18-18.29.46:428][280]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2023.01.18-18.29.46:430][280]PIE: Server logged in
+[2023.01.18-18.29.46:430][280]PIE: Play in editor total start time 0,088 seconds.
+[2023.01.18-18.29.48:063][464]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.18-18.29.48:063][464]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2023.01.18-18.29.48:063][464]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2023.01.18-18.29.48:064][464]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.18-18.29.48:069][464]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.18-18.29.48:080][464]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.18-18.29.48:083][464]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.01.18-18.29.48:084][464]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.01.18-18.29.48:084][464]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.01.18-18.29.48:086][464]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.18-18.29.48:088][464]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2023.01.18-18.29.48:145][467]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2023.01.18-18.30.01:364][922]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default
+[2023.01.18-18.30.01:533][922]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 126 classes and 0 folders.
+[2023.01.18-18.30.02:147][922]LogSlate: Took 0.000157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.01.18-18.30.19:120][558]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2023.01.18-18.30.19:131][558]LogSavePackage: Moving '../../../../../../Users/PC/Documents/GitHub/Projekt1---labirynt-z-kulk-/NiePatrycjaPilarz/Saved/Minimal_Default52F4316F47CCBDF60BD48C85FB87BCF8.tmp' to '../../../../../../Users/PC/Documents/GitHub/Projekt1---labirynt-z-kulk-/NiePatrycjaPilarz/Content/StarterContent/Maps/Minimal_Default.umap'
+[2023.01.18-18.30.19:135][558]LogFileHelpers: Saving map 'Minimal_Default' took 0.035
+[2023.01.18-18.30.19:145][558]AssetCheck: New page: Asset Save: Minimal_Default
+[2023.01.18-18.30.19:145][558]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Minimal_Default.Minimal_Default
+[2023.01.18-18.30.20:403][706]LogTemp: Repeating last play command: Selected Viewport
+[2023.01.18-18.30.20:407][706]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.01.18-18.30.20:407][706]LogPlayLevel: [PlayLevel] Compiling Minimal_Default before play...
+[2023.01.18-18.30.20:437][706]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2023.01.18-18.30.20:440][706]LogPlayLevel: PlayLevel: Blueprint regeneration took 32 ms (1 blueprints)
+[2023.01.18-18.30.20:440][706]PIE: New page: PIE session: Minimal_Default (18 sty 2023, 20:30:20)
+[2023.01.18-18.30.20:440][706]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2023.01.18-18.30.20:443][706]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002488s)
+[2023.01.18-18.30.20:443][706]LogAIModule: Creating AISystem for world Minimal_Default
+[2023.01.18-18.30.20:444][706]LogPlayLevel: PIE: World Init took: (0.000775s)
+[2023.01.18-18.30.20:444][706]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003340s)
+[2023.01.18-18.30.20:458][706]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2023.01.18-18.30.20:458][706]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2023.01.18-18.30.20:458][706]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.18-18.30.20:458][706]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.18-18.30.20:458][706]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.18-18.30.20:458][706]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.18-18.30.20:458][706]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.18-18.30.20:458][706]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.01.18-18.30.20:458][706]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.18-18.30.20:458][706]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.18-18.30.20:459][706]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.18-18.30.20:459][706]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.18-18.30.20:459][706]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.18-18.30.20:459][706]LogAudioMixer: Display: Initializing audio mixer.
+[2023.01.18-18.30.20:463][706]LogAudioMixer: Display: 0: FrontLeft
+[2023.01.18-18.30.20:463][706]LogAudioMixer: Display: 1: FrontRight
+[2023.01.18-18.30.20:474][706]LogAudioMixer: Display: Using Audio Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2023.01.18-18.30.20:474][706]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.18-18.30.20:474][706]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.18-18.30.20:474][706]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.18-18.30.20:475][706]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.01.18-18.30.20:475][706]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.01.18-18.30.20:475][706]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.01.18-18.30.20:475][706]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.01.18-18.30.20:475][706]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.01.18-18.30.20:475][706]LogInit: FAudioDevice initialized.
+[2023.01.18-18.30.20:475][706]LogAudio: Display: Audio Device (ID: 4) registered with world 'Minimal_Default'.
+[2023.01.18-18.30.20:487][706]LogLoad: Game class is 'GameModeBase'
+[2023.01.18-18.30.20:488][706]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2023.01.18-19.30.20
+[2023.01.18-18.30.20:488][706]LogWorld: Bringing up level for play took: 0.000601
+[2023.01.18-18.30.20:488][706]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2023.01.18-18.30.20:490][706]PIE: Server logged in
+[2023.01.18-18.30.20:491][706]PIE: Play in editor total start time 0,084 seconds.
+[2023.01.18-18.30.21:632][830]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.21:641][831]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.21:649][832]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.21:657][833]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.21:666][834]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.21:674][835]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.21:683][836]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.21:691][837]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.21:699][838]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.21:708][839]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.21:716][840]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.21:724][841]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.21:733][842]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.21:741][843]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.21:749][844]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.21:758][845]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.21:766][846]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.21:774][847]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.21:782][848]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.21:790][849]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.21:798][850]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.21:815][852]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.21:832][854]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.21:840][855]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.21:849][856]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.21:857][857]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.21:865][858]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.21:874][859]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.21:882][860]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.21:890][861]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.21:899][862]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.21:907][863]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.21:916][864]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.21:924][865]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.21:932][866]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.21:941][867]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.21:949][868]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.21:957][869]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.21:966][870]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.21:974][871]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.21:982][872]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.21:991][873]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.21:999][874]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:007][875]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:016][876]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:024][877]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:032][878]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:041][879]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:049][880]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:058][881]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:066][882]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:074][883]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:083][884]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:091][885]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:099][886]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:108][887]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:116][888]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:124][889]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:133][890]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:141][891]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:149][892]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:157][893]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:165][894]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:241][903]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:249][904]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:258][905]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:266][906]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:274][907]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:283][908]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:290][909]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:299][910]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:307][911]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:316][912]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:324][913]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:332][914]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:341][915]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:349][916]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:358][917]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:366][918]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:374][919]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:382][920]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:391][921]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:399][922]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:407][923]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:415][924]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:424][925]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:432][926]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:441][927]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:449][928]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:457][929]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:466][930]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:474][931]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:482][932]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:491][933]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:499][934]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:507][935]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:516][936]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:524][937]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:533][938]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:541][939]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:549][940]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:558][941]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:566][942]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:574][943]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:583][944]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:591][945]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:599][946]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:608][947]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:616][948]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:624][949]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:633][950]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:641][951]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:649][952]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:658][953]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:666][954]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:674][955]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:683][956]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:691][957]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:699][958]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:707][959]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:716][960]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:724][961]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:732][962]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:741][963]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:749][964]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:757][965]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:766][966]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:774][967]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:782][968]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:791][969]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:799][970]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:808][971]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:815][972]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:824][973]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:832][974]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:840][975]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:849][976]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:857][977]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:865][978]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:874][979]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:882][980]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:890][981]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:899][982]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:907][983]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:915][984]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:924][985]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:932][986]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:941][987]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:949][988]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:957][989]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:966][990]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:974][991]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:982][992]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:991][993]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.22:999][994]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:007][995]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:016][996]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:024][997]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:032][998]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:041][999]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:049][  0]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:058][  1]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:066][  2]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:074][  3]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:083][  4]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:091][  5]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:099][  6]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:108][  7]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:116][  8]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:124][  9]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:133][ 10]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:141][ 11]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:149][ 12]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:158][ 13]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:166][ 14]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:175][ 15]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:183][ 16]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:190][ 17]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:199][ 18]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:207][ 19]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:215][ 20]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:224][ 21]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:232][ 22]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:240][ 23]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:249][ 24]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:257][ 25]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:265][ 26]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:274][ 27]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:282][ 28]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:290][ 29]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:299][ 30]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:307][ 31]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:316][ 32]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:324][ 33]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:332][ 34]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:341][ 35]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:349][ 36]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:357][ 37]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:366][ 38]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:374][ 39]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:382][ 40]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:391][ 41]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:399][ 42]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:408][ 43]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:416][ 44]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:424][ 45]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:433][ 46]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:441][ 47]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:450][ 48]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:458][ 49]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:466][ 50]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:474][ 51]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:483][ 52]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:491][ 53]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:499][ 54]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:508][ 55]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:516][ 56]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:524][ 57]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:533][ 58]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:541][ 59]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:549][ 60]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:558][ 61]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:565][ 62]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:574][ 63]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:582][ 64]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:590][ 65]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:599][ 66]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:607][ 67]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:615][ 68]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:624][ 69]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:632][ 70]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:640][ 71]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:649][ 72]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:657][ 73]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:665][ 74]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:674][ 75]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:682][ 76]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:690][ 77]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:699][ 78]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:707][ 79]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:716][ 80]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:724][ 81]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:732][ 82]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:741][ 83]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:749][ 84]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:757][ 85]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:766][ 86]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:774][ 87]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:782][ 88]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:791][ 89]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:799][ 90]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:808][ 91]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:816][ 92]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:824][ 93]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:833][ 94]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:841][ 95]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:849][ 96]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:858][ 97]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:866][ 98]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:874][ 99]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:883][100]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:891][101]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:899][102]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:908][103]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:916][104]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:924][105]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:932][106]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:940][107]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:949][108]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:957][109]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:965][110]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:974][111]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:982][112]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:990][113]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.23:999][114]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.24:007][115]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.24:015][116]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.24:024][117]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.24:032][118]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.24:040][119]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.24:049][120]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.24:057][121]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.24:066][122]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.24:074][123]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.24:082][124]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.24:091][125]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.24:099][126]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.24:107][127]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.24:116][128]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.24:124][129]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.24:132][130]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.24:141][131]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.24:149][132]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.24:158][133]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.24:166][134]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.24:174][135]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.24:183][136]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.24:191][137]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.24:199][138]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.24:216][140]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.24:249][144]PIE: Warning: Mobility of /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Maze2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.18-18.30.24:684][192]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.18-18.30.24:684][192]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2023.01.18-18.30.24:684][192]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2023.01.18-18.30.24:684][192]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.18-18.30.24:690][192]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.18-18.30.24:703][192]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.18-18.30.24:716][192]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.18-18.30.24:716][192]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.01.18-18.30.24:717][192]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.01.18-18.30.24:721][192]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2023.01.18-18.30.24:829][192]LogSlate: Took 0.000195 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2023.01.18-18.30.24:837][193]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2023.01.18-18.30.25:925][273]LogSlate: Window 'Message Log' being destroyed
+[2023.01.18-18.30.25:928][273]LogSlate: Window 'Message Log' being destroyed
+[2023.01.18-18.30.26:469][337]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Maze2)
+[2023.01.18-18.30.36:158][487]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Maze2)
+[2023.01.18-18.30.36:382][513]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2023.01.18-18.30.36:919][575]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2023.01.18-18.30.38:083][711]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Maze2)
+[2023.01.18-18.30.45:533][509]LogTemp: Repeating last play command: Selected Viewport
+[2023.01.18-18.30.45:537][509]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.18-18.30.45:537][509]PIE: New page: PIE session: Minimal_Default (18 sty 2023, 20:30:45)
+[2023.01.18-18.30.45:563][509]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2023.01.18-18.30.45:565][509]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002620s)
+[2023.01.18-18.30.45:566][509]LogAIModule: Creating AISystem for world Minimal_Default
+[2023.01.18-18.30.45:567][509]LogPlayLevel: PIE: World Init took: (0.001016s)
+[2023.01.18-18.30.45:567][509]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003737s)
+[2023.01.18-18.30.45:581][509]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2023.01.18-18.30.45:583][509]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2023.01.18-18.30.45:583][509]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.18-18.30.45:583][509]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.18-18.30.45:583][509]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.18-18.30.45:583][509]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.18-18.30.45:583][509]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.18-18.30.45:583][509]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.01.18-18.30.45:583][509]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.18-18.30.45:583][509]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.18-18.30.45:583][509]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.18-18.30.45:583][509]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.18-18.30.45:583][509]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.18-18.30.45:583][509]LogAudioMixer: Display: Initializing audio mixer.
+[2023.01.18-18.30.45:587][509]LogAudioMixer: Display: 0: FrontLeft
+[2023.01.18-18.30.45:587][509]LogAudioMixer: Display: 1: FrontRight
+[2023.01.18-18.30.45:598][509]LogAudioMixer: Display: Using Audio Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2023.01.18-18.30.45:598][509]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.18-18.30.45:598][509]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.18-18.30.45:598][509]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.18-18.30.45:598][509]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.01.18-18.30.45:598][509]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.01.18-18.30.45:598][509]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.01.18-18.30.45:599][509]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.01.18-18.30.45:599][509]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.01.18-18.30.45:599][509]LogInit: FAudioDevice initialized.
+[2023.01.18-18.30.45:599][509]LogAudio: Display: Audio Device (ID: 5) registered with world 'Minimal_Default'.
+[2023.01.18-18.30.45:609][509]LogLoad: Game class is 'GameModeBase'
+[2023.01.18-18.30.45:610][509]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2023.01.18-19.30.45
+[2023.01.18-18.30.45:610][509]LogWorld: Bringing up level for play took: 0.000495
+[2023.01.18-18.30.45:610][509]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2023.01.18-18.30.45:611][509]PIE: Server logged in
+[2023.01.18-18.30.45:612][509]PIE: Play in editor total start time 0,076 seconds.
+[2023.01.18-18.30.47:434][722]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.18-18.30.47:434][722]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2023.01.18-18.30.47:434][722]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2023.01.18-18.30.47:434][722]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.18-18.30.47:443][722]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.18-18.30.47:455][722]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.18-18.30.47:468][722]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.18-18.30.47:469][722]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.01.18-18.30.47:469][722]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.01.18-18.30.47:474][722]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2023.01.18-18.30.47:523][724]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2023.01.18-18.30.52:553][320]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2023.01.18-18.30.52:564][320]LogSavePackage: Moving '../../../../../../Users/PC/Documents/GitHub/Projekt1---labirynt-z-kulk-/NiePatrycjaPilarz/Saved/Minimal_Default7E8D57F44EF77C1150CAA98E46D600AD.tmp' to '../../../../../../Users/PC/Documents/GitHub/Projekt1---labirynt-z-kulk-/NiePatrycjaPilarz/Content/StarterContent/Maps/Minimal_Default.umap'
+[2023.01.18-18.30.52:603][320]LogSavePackage: Moving '../../../../../../Users/PC/Documents/GitHub/Projekt1---labirynt-z-kulk-/NiePatrycjaPilarz/Saved/Minimal_Default_BuiltData2C82E6F14874EF8104886D99DFA44012.tmp' to '../../../../../../Users/PC/Documents/GitHub/Projekt1---labirynt-z-kulk-/NiePatrycjaPilarz/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2023.01.18-18.30.52:615][320]AssetCheck: New page: Asset Save: multiple assets
+[2023.01.18-18.30.52:615][320]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData
+[2023.01.18-18.30.52:615][320]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Minimal_Default.Minimal_Default
+[2023.01.18-18.31.14:001][225]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2023.01.18-18.31.15:049][348]Cmd: DELETE
+[2023.01.18-18.31.15:049][348]Cmd: ACTOR DELETE
+[2023.01.18-18.31.15:050][348]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.01.18-18.31.15:065][348]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2023.01.18-18.31.15:066][348]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2023.01.18-18.31.15:881][446]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Maze2)
+[2023.01.18-18.31.20:394][984]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2023.01.18-18.31.20:980][ 52]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2023.01.18-18.31.23:051][298]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2023.01.18-18.31.24:036][414]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.01.18-18.31.25:407][578]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.01.18-18.32.08:619][231]LogTemp: Repeating last play command: Selected Viewport
+[2023.01.18-18.32.08:623][231]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.18-18.32.08:623][231]PIE: New page: PIE session: Minimal_Default (18 sty 2023, 20:32:08)
+[2023.01.18-18.32.08:653][231]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2023.01.18-18.32.08:655][231]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002562s)
+[2023.01.18-18.32.08:656][231]LogAIModule: Creating AISystem for world Minimal_Default
+[2023.01.18-18.32.08:656][231]LogPlayLevel: PIE: World Init took: (0.000898s)
+[2023.01.18-18.32.08:656][231]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003579s)
+[2023.01.18-18.32.08:672][231]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2023.01.18-18.32.08:673][231]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2023.01.18-18.32.08:673][231]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.18-18.32.08:673][231]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.18-18.32.08:673][231]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.18-18.32.08:673][231]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.18-18.32.08:674][231]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.18-18.32.08:674][231]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.01.18-18.32.08:674][231]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.18-18.32.08:674][231]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.18-18.32.08:674][231]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.18-18.32.08:674][231]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.18-18.32.08:674][231]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.18-18.32.08:674][231]LogAudioMixer: Display: Initializing audio mixer.
+[2023.01.18-18.32.08:678][231]LogAudioMixer: Display: 0: FrontLeft
+[2023.01.18-18.32.08:678][231]LogAudioMixer: Display: 1: FrontRight
+[2023.01.18-18.32.08:689][231]LogAudioMixer: Display: Using Audio Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2023.01.18-18.32.08:690][231]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.18-18.32.08:690][231]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.18-18.32.08:690][231]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.18-18.32.08:690][231]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.01.18-18.32.08:690][231]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.01.18-18.32.08:690][231]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.01.18-18.32.08:691][231]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.01.18-18.32.08:691][231]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.01.18-18.32.08:691][231]LogInit: FAudioDevice initialized.
+[2023.01.18-18.32.08:691][231]LogAudio: Display: Audio Device (ID: 6) registered with world 'Minimal_Default'.
+[2023.01.18-18.32.08:700][231]LogLoad: Game class is 'GameModeBase'
+[2023.01.18-18.32.08:700][231]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2023.01.18-19.32.08
+[2023.01.18-18.32.08:700][231]LogWorld: Bringing up level for play took: 0.000532
+[2023.01.18-18.32.08:701][231]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2023.01.18-18.32.08:702][231]PIE: Server logged in
+[2023.01.18-18.32.08:703][231]PIE: Play in editor total start time 0,08 seconds.
+[2023.01.18-18.32.12:034][626]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.18-18.32.12:034][626]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2023.01.18-18.32.12:035][626]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2023.01.18-18.32.12:035][626]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.18-18.32.12:042][626]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.18-18.32.12:053][626]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.18-18.32.12:066][626]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.18-18.32.12:066][626]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.01.18-18.32.12:067][626]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.01.18-18.32.12:071][626]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2023.01.18-18.32.12:114][628]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2023.01.18-18.32.16:293][120]LogTemp: Repeating last play command: Selected Viewport
+[2023.01.18-18.32.16:297][120]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.18-18.32.16:297][120]PIE: New page: PIE session: Minimal_Default (18 sty 2023, 20:32:16)
+[2023.01.18-18.32.16:333][120]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2023.01.18-18.32.16:335][120]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002550s)
+[2023.01.18-18.32.16:336][120]LogAIModule: Creating AISystem for world Minimal_Default
+[2023.01.18-18.32.16:336][120]LogPlayLevel: PIE: World Init took: (0.000816s)
+[2023.01.18-18.32.16:336][120]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003471s)
+[2023.01.18-18.32.16:351][120]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2023.01.18-18.32.16:352][120]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2023.01.18-18.32.16:352][120]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.18-18.32.16:352][120]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.18-18.32.16:352][120]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.18-18.32.16:352][120]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.18-18.32.16:352][120]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.18-18.32.16:352][120]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.01.18-18.32.16:352][120]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.18-18.32.16:352][120]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.18-18.32.16:353][120]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.18-18.32.16:353][120]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.18-18.32.16:353][120]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.18-18.32.16:353][120]LogAudioMixer: Display: Initializing audio mixer.
+[2023.01.18-18.32.16:357][120]LogAudioMixer: Display: 0: FrontLeft
+[2023.01.18-18.32.16:357][120]LogAudioMixer: Display: 1: FrontRight
+[2023.01.18-18.32.16:368][120]LogAudioMixer: Display: Using Audio Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2023.01.18-18.32.16:368][120]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.18-18.32.16:368][120]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.18-18.32.16:368][120]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.18-18.32.16:368][120]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.01.18-18.32.16:368][120]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.01.18-18.32.16:368][120]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.01.18-18.32.16:369][120]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.01.18-18.32.16:369][120]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.01.18-18.32.16:369][120]LogInit: FAudioDevice initialized.
+[2023.01.18-18.32.16:369][120]LogAudio: Display: Audio Device (ID: 7) registered with world 'Minimal_Default'.
+[2023.01.18-18.32.16:377][120]LogLoad: Game class is 'GameModeBase'
+[2023.01.18-18.32.16:378][120]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2023.01.18-19.32.16
+[2023.01.18-18.32.16:379][120]LogWorld: Bringing up level for play took: 0.000450
+[2023.01.18-18.32.16:379][120]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2023.01.18-18.32.16:380][120]PIE: Server logged in
+[2023.01.18-18.32.16:381][120]PIE: Play in editor total start time 0,083 seconds.
+[2023.01.18-18.32.16:884][173]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.18-18.32.16:884][173]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2023.01.18-18.32.16:884][173]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2023.01.18-18.32.16:884][173]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.18-18.32.16:890][173]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.18-18.32.16:900][173]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.18-18.32.16:913][173]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.18-18.32.16:914][173]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.01.18-18.32.16:915][173]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.01.18-18.32.16:919][173]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2023.01.18-18.32.16:943][175]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2023.01.18-18.32.26:374][298]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.01.18-18.32.27:532][436]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2023.01.18-18.32.28:208][515]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2023.01.18-18.32.29:846][709]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2023.01.18-18.32.30:484][783]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2023.01.18-18.32.33:071][ 91]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.01.18-18.32.34:516][263]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.01.18-18.32.34:739][289]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2023.01.18-18.32.48:347][878]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2023.01.18-18.32.51:804][289]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.01.18-18.32.53:134][448]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.01.18-18.32.54:414][601]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.01.18-18.32.57:053][917]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.01.18-18.32.57:730][995]LogTemp: Repeating last play command: Selected Viewport
+[2023.01.18-18.32.57:733][995]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.18-18.32.57:733][995]PIE: New page: PIE session: Minimal_Default (18 sty 2023, 20:32:57)
+[2023.01.18-18.32.57:733][995]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2023.01.18-18.32.57:736][995]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002624s)
+[2023.01.18-18.32.57:737][995]LogAIModule: Creating AISystem for world Minimal_Default
+[2023.01.18-18.32.57:737][995]LogPlayLevel: PIE: World Init took: (0.000887s)
+[2023.01.18-18.32.57:737][995]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003610s)
+[2023.01.18-18.32.57:752][995]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2023.01.18-18.32.57:753][995]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2023.01.18-18.32.57:753][995]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.18-18.32.57:753][995]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.18-18.32.57:753][995]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.18-18.32.57:753][995]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.18-18.32.57:753][995]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.18-18.32.57:753][995]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.01.18-18.32.57:753][995]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.18-18.32.57:753][995]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.18-18.32.57:754][995]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.18-18.32.57:754][995]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.18-18.32.57:754][995]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.18-18.32.57:754][995]LogAudioMixer: Display: Initializing audio mixer.
+[2023.01.18-18.32.57:758][995]LogAudioMixer: Display: 0: FrontLeft
+[2023.01.18-18.32.57:758][995]LogAudioMixer: Display: 1: FrontRight
+[2023.01.18-18.32.57:769][995]LogAudioMixer: Display: Using Audio Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2023.01.18-18.32.57:769][995]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.18-18.32.57:769][995]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.18-18.32.57:769][995]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.18-18.32.57:770][995]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.01.18-18.32.57:770][995]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.01.18-18.32.57:770][995]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.01.18-18.32.57:770][995]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.01.18-18.32.57:770][995]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.01.18-18.32.57:770][995]LogInit: FAudioDevice initialized.
+[2023.01.18-18.32.57:770][995]LogAudio: Display: Audio Device (ID: 8) registered with world 'Minimal_Default'.
+[2023.01.18-18.32.57:780][995]LogLoad: Game class is 'GameModeBase'
+[2023.01.18-18.32.57:781][995]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2023.01.18-19.32.57
+[2023.01.18-18.32.57:781][995]LogWorld: Bringing up level for play took: 0.000445
+[2023.01.18-18.32.57:781][995]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2023.01.18-18.32.57:783][995]PIE: Server logged in
+[2023.01.18-18.32.57:783][995]PIE: Play in editor total start time 0,051 seconds.
+[2023.01.18-18.32.59:903][168]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.18-18.32.59:903][168]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2023.01.18-18.32.59:903][168]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2023.01.18-18.32.59:903][168]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.18-18.32.59:908][168]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.18-18.32.59:918][168]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.18-18.32.59:932][168]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.18-18.32.59:932][168]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.01.18-18.32.59:933][168]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.01.18-18.32.59:937][168]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2023.01.18-18.32.59:980][170]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2023.01.18-18.33.09:810][337]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.01.18-18.33.10:340][400]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2023.01.18-18.33.10:931][467]LogTemp: Repeating last play command: Selected Viewport
+[2023.01.18-18.33.10:935][467]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.18-18.33.10:935][467]PIE: New page: PIE session: Minimal_Default (18 sty 2023, 20:33:10)
+[2023.01.18-18.33.10:973][467]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2023.01.18-18.33.10:975][467]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002509s)
+[2023.01.18-18.33.10:976][467]LogAIModule: Creating AISystem for world Minimal_Default
+[2023.01.18-18.33.10:976][467]LogPlayLevel: PIE: World Init took: (0.000833s)
+[2023.01.18-18.33.10:976][467]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003459s)
+[2023.01.18-18.33.10:992][467]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2023.01.18-18.33.10:992][467]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2023.01.18-18.33.10:992][467]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.18-18.33.10:992][467]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.18-18.33.10:992][467]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.18-18.33.10:992][467]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.18-18.33.10:992][467]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.18-18.33.10:992][467]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.01.18-18.33.10:993][467]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.18-18.33.10:993][467]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.18-18.33.10:993][467]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.18-18.33.10:993][467]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.18-18.33.10:993][467]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.18-18.33.10:993][467]LogAudioMixer: Display: Initializing audio mixer.
+[2023.01.18-18.33.10:997][467]LogAudioMixer: Display: 0: FrontLeft
+[2023.01.18-18.33.10:997][467]LogAudioMixer: Display: 1: FrontRight
+[2023.01.18-18.33.11:008][467]LogAudioMixer: Display: Using Audio Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2023.01.18-18.33.11:008][467]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.18-18.33.11:008][467]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.18-18.33.11:008][467]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.18-18.33.11:008][467]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.01.18-18.33.11:009][467]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.01.18-18.33.11:009][467]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.01.18-18.33.11:010][467]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.01.18-18.33.11:010][467]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.01.18-18.33.11:010][467]LogInit: FAudioDevice initialized.
+[2023.01.18-18.33.11:010][467]LogAudio: Display: Audio Device (ID: 9) registered with world 'Minimal_Default'.
+[2023.01.18-18.33.11:017][467]LogLoad: Game class is 'GameModeBase'
+[2023.01.18-18.33.11:018][467]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2023.01.18-19.33.11
+[2023.01.18-18.33.11:018][467]LogWorld: Bringing up level for play took: 0.000450
+[2023.01.18-18.33.11:018][467]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2023.01.18-18.33.11:019][467]PIE: Server logged in
+[2023.01.18-18.33.11:020][467]PIE: Play in editor total start time 0,086 seconds.
+[2023.01.18-18.33.12:114][592]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.18-18.33.12:114][592]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2023.01.18-18.33.12:114][592]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2023.01.18-18.33.12:114][592]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.18-18.33.12:123][592]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.18-18.33.12:130][592]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.18-18.33.12:144][592]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.18-18.33.12:144][592]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.01.18-18.33.12:145][592]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.01.18-18.33.12:149][592]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2023.01.18-18.33.12:175][594]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2023.01.18-18.33.15:556][988]Cmd: SELECT NONE
+[2023.01.18-18.33.18:228][306]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2023.01.18-18.33.20:791][603]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2023.01.18-18.33.25:116][109]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.01.18-18.33.25:805][191]LogTemp: Repeating last play command: Selected Viewport
+[2023.01.18-18.33.25:809][191]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.18-18.33.25:809][191]PIE: New page: PIE session: Minimal_Default (18 sty 2023, 20:33:25)
+[2023.01.18-18.33.25:809][191]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2023.01.18-18.33.25:811][191]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002487s)
+[2023.01.18-18.33.25:812][191]LogAIModule: Creating AISystem for world Minimal_Default
+[2023.01.18-18.33.25:812][191]LogPlayLevel: PIE: World Init took: (0.001049s)
+[2023.01.18-18.33.25:812][191]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003622s)
+[2023.01.18-18.33.25:828][191]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2023.01.18-18.33.25:829][191]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2023.01.18-18.33.25:829][191]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.18-18.33.25:829][191]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.18-18.33.25:829][191]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.18-18.33.25:829][191]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.18-18.33.25:829][191]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.18-18.33.25:829][191]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.01.18-18.33.25:829][191]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.18-18.33.25:829][191]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.18-18.33.25:829][191]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.18-18.33.25:829][191]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.18-18.33.25:829][191]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.18-18.33.25:829][191]LogAudioMixer: Display: Initializing audio mixer.
+[2023.01.18-18.33.25:834][191]LogAudioMixer: Display: 0: FrontLeft
+[2023.01.18-18.33.25:834][191]LogAudioMixer: Display: 1: FrontRight
+[2023.01.18-18.33.25:846][191]LogAudioMixer: Display: Using Audio Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2023.01.18-18.33.25:846][191]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.18-18.33.25:846][191]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.18-18.33.25:846][191]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.18-18.33.25:846][191]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.01.18-18.33.25:846][191]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.01.18-18.33.25:846][191]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.01.18-18.33.25:847][191]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.01.18-18.33.25:847][191]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.01.18-18.33.25:847][191]LogInit: FAudioDevice initialized.
+[2023.01.18-18.33.25:847][191]LogAudio: Display: Audio Device (ID: 10) registered with world 'Minimal_Default'.
+[2023.01.18-18.33.25:853][191]LogLoad: Game class is 'GameModeBase'
+[2023.01.18-18.33.25:854][191]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2023.01.18-19.33.25
+[2023.01.18-18.33.25:854][191]LogWorld: Bringing up level for play took: 0.000465
+[2023.01.18-18.33.25:854][191]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2023.01.18-18.33.25:856][191]PIE: Server logged in
+[2023.01.18-18.33.25:856][191]PIE: Play in editor total start time 0,048 seconds.
+[2023.01.18-18.33.33:464][ 58]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.18-18.33.33:464][ 58]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2023.01.18-18.33.33:464][ 58]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2023.01.18-18.33.33:464][ 58]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.18-18.33.33:474][ 58]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.18-18.33.33:484][ 58]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.18-18.33.33:498][ 58]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.01.18-18.33.33:498][ 58]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.01.18-18.33.33:499][ 58]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.01.18-18.33.33:501][ 58]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.18-18.33.33:503][ 58]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2023.01.18-18.33.33:545][ 60]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2023.01.18-18.33.36:459][405]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2023.01.18-18.33.37:098][479]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2023.01.18-18.33.39:335][745]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.01.18-18.33.40:207][841]LogTemp: Repeating last play command: Selected Viewport
+[2023.01.18-18.33.40:211][841]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.18-18.33.40:211][841]PIE: New page: PIE session: Minimal_Default (18 sty 2023, 20:33:40)
+[2023.01.18-18.33.40:211][841]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2023.01.18-18.33.40:214][841]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002813s)
+[2023.01.18-18.33.40:215][841]LogAIModule: Creating AISystem for world Minimal_Default
+[2023.01.18-18.33.40:215][841]LogPlayLevel: PIE: World Init took: (0.000976s)
+[2023.01.18-18.33.40:215][841]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003885s)
+[2023.01.18-18.33.40:230][841]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2023.01.18-18.33.40:231][841]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2023.01.18-18.33.40:231][841]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.18-18.33.40:231][841]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.18-18.33.40:231][841]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.18-18.33.40:231][841]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.18-18.33.40:231][841]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.18-18.33.40:231][841]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.01.18-18.33.40:231][841]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.18-18.33.40:231][841]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.18-18.33.40:231][841]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.18-18.33.40:231][841]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.18-18.33.40:231][841]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.18-18.33.40:231][841]LogAudioMixer: Display: Initializing audio mixer.
+[2023.01.18-18.33.40:236][841]LogAudioMixer: Display: 0: FrontLeft
+[2023.01.18-18.33.40:236][841]LogAudioMixer: Display: 1: FrontRight
+[2023.01.18-18.33.40:247][841]LogAudioMixer: Display: Using Audio Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2023.01.18-18.33.40:247][841]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.18-18.33.40:247][841]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.18-18.33.40:247][841]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.18-18.33.40:248][841]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.01.18-18.33.40:248][841]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.01.18-18.33.40:248][841]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.01.18-18.33.40:249][841]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.01.18-18.33.40:249][841]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.01.18-18.33.40:249][841]LogInit: FAudioDevice initialized.
+[2023.01.18-18.33.40:249][841]LogAudio: Display: Audio Device (ID: 11) registered with world 'Minimal_Default'.
+[2023.01.18-18.33.40:259][841]LogLoad: Game class is 'GameModeBase'
+[2023.01.18-18.33.40:260][841]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2023.01.18-19.33.40
+[2023.01.18-18.33.40:260][841]LogWorld: Bringing up level for play took: 0.000497
+[2023.01.18-18.33.40:260][841]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2023.01.18-18.33.40:262][841]PIE: Server logged in
+[2023.01.18-18.33.40:262][841]PIE: Play in editor total start time 0,052 seconds.
+[2023.01.18-18.33.41:503][978]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.18-18.33.41:503][978]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2023.01.18-18.33.41:503][978]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2023.01.18-18.33.41:503][978]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.18-18.33.41:510][978]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.18-18.33.41:520][978]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.18-18.33.41:533][978]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.18-18.33.41:534][978]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.01.18-18.33.41:534][978]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.01.18-18.33.41:538][978]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2023.01.18-18.33.41:586][981]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2023.01.18-18.33.44:725][342]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.01.18-18.33.45:955][489]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.01.18-18.33.46:398][540]LogTemp: Repeating last play command: Selected Viewport
+[2023.01.18-18.33.46:401][540]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.18-18.33.46:401][540]PIE: New page: PIE session: Minimal_Default (18 sty 2023, 20:33:46)
+[2023.01.18-18.33.46:424][540]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2023.01.18-18.33.46:426][540]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002566s)
+[2023.01.18-18.33.46:427][540]LogAIModule: Creating AISystem for world Minimal_Default
+[2023.01.18-18.33.46:427][540]LogPlayLevel: PIE: World Init took: (0.000814s)
+[2023.01.18-18.33.46:427][540]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003485s)
+[2023.01.18-18.33.46:441][540]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2023.01.18-18.33.46:442][540]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2023.01.18-18.33.46:442][540]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.18-18.33.46:442][540]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.18-18.33.46:442][540]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.18-18.33.46:442][540]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.18-18.33.46:442][540]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.18-18.33.46:442][540]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.01.18-18.33.46:442][540]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.18-18.33.46:442][540]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.18-18.33.46:442][540]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.18-18.33.46:442][540]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.18-18.33.46:442][540]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.18-18.33.46:442][540]LogAudioMixer: Display: Initializing audio mixer.
+[2023.01.18-18.33.46:447][540]LogAudioMixer: Display: 0: FrontLeft
+[2023.01.18-18.33.46:447][540]LogAudioMixer: Display: 1: FrontRight
+[2023.01.18-18.33.46:458][540]LogAudioMixer: Display: Using Audio Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2023.01.18-18.33.46:458][540]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.18-18.33.46:458][540]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.18-18.33.46:458][540]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.18-18.33.46:458][540]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.01.18-18.33.46:458][540]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.01.18-18.33.46:458][540]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.01.18-18.33.46:459][540]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.01.18-18.33.46:459][540]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.01.18-18.33.46:459][540]LogInit: FAudioDevice initialized.
+[2023.01.18-18.33.46:459][540]LogAudio: Display: Audio Device (ID: 12) registered with world 'Minimal_Default'.
+[2023.01.18-18.33.46:465][540]LogLoad: Game class is 'GameModeBase'
+[2023.01.18-18.33.46:466][540]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2023.01.18-19.33.46
+[2023.01.18-18.33.46:466][540]LogWorld: Bringing up level for play took: 0.000459
+[2023.01.18-18.33.46:466][540]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2023.01.18-18.33.46:467][540]PIE: Server logged in
+[2023.01.18-18.33.46:468][540]PIE: Play in editor total start time 0,068 seconds.
+[2023.01.18-18.33.47:693][682]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.18-18.33.47:693][682]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2023.01.18-18.33.47:694][682]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2023.01.18-18.33.47:694][682]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.18-18.33.47:698][682]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.18-18.33.47:708][682]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.18-18.33.47:722][682]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.18-18.33.47:722][682]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.01.18-18.33.47:723][682]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.01.18-18.33.47:727][682]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2023.01.18-18.33.47:768][686]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2023.01.18-18.33.51:416][113]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.01.18-18.33.52:090][193]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.01.18-18.33.53:479][347]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.01.18-18.33.54:023][411]LogTemp: Repeating last play command: Selected Viewport
+[2023.01.18-18.33.54:026][411]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.18-18.33.54:026][411]PIE: New page: PIE session: Minimal_Default (18 sty 2023, 20:33:54)
+[2023.01.18-18.33.54:026][411]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2023.01.18-18.33.54:029][411]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002595s)
+[2023.01.18-18.33.54:030][411]LogAIModule: Creating AISystem for world Minimal_Default
+[2023.01.18-18.33.54:030][411]LogPlayLevel: PIE: World Init took: (0.001086s)
+[2023.01.18-18.33.54:030][411]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003770s)
+[2023.01.18-18.33.54:045][411]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2023.01.18-18.33.54:046][411]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2023.01.18-18.33.54:046][411]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.18-18.33.54:046][411]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.18-18.33.54:046][411]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.18-18.33.54:046][411]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.18-18.33.54:046][411]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.18-18.33.54:046][411]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.01.18-18.33.54:046][411]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.18-18.33.54:046][411]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.18-18.33.54:046][411]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.18-18.33.54:047][411]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.18-18.33.54:047][411]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.18-18.33.54:047][411]LogAudioMixer: Display: Initializing audio mixer.
+[2023.01.18-18.33.54:051][411]LogAudioMixer: Display: 0: FrontLeft
+[2023.01.18-18.33.54:051][411]LogAudioMixer: Display: 1: FrontRight
+[2023.01.18-18.33.54:062][411]LogAudioMixer: Display: Using Audio Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2023.01.18-18.33.54:062][411]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.18-18.33.54:062][411]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.18-18.33.54:062][411]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.18-18.33.54:062][411]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.01.18-18.33.54:062][411]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.01.18-18.33.54:062][411]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.01.18-18.33.54:063][411]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.01.18-18.33.54:063][411]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.01.18-18.33.54:063][411]LogInit: FAudioDevice initialized.
+[2023.01.18-18.33.54:063][411]LogAudio: Display: Audio Device (ID: 13) registered with world 'Minimal_Default'.
+[2023.01.18-18.33.54:071][411]LogLoad: Game class is 'GameModeBase'
+[2023.01.18-18.33.54:072][411]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2023.01.18-19.33.54
+[2023.01.18-18.33.54:072][411]LogWorld: Bringing up level for play took: 0.000444
+[2023.01.18-18.33.54:072][411]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2023.01.18-18.33.54:074][411]PIE: Server logged in
+[2023.01.18-18.33.54:075][411]PIE: Play in editor total start time 0,049 seconds.
+[2023.01.18-18.33.57:334][796]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.18-18.33.57:334][796]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2023.01.18-18.33.57:334][796]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2023.01.18-18.33.57:334][796]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.18-18.33.57:339][796]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.18-18.33.57:349][796]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.18-18.33.57:363][796]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.18-18.33.57:363][796]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.01.18-18.33.57:364][796]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.01.18-18.33.57:368][796]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2023.01.18-18.33.57:411][798]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2023.01.18-18.34.01:810][311]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.01.18-18.34.02:348][375]LogTemp: Repeating last play command: Selected Viewport
+[2023.01.18-18.34.02:352][375]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.18-18.34.02:352][375]PIE: New page: PIE session: Minimal_Default (18 sty 2023, 20:34:02)
+[2023.01.18-18.34.02:383][375]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2023.01.18-18.34.02:385][375]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002859s)
+[2023.01.18-18.34.02:386][375]LogAIModule: Creating AISystem for world Minimal_Default
+[2023.01.18-18.34.02:386][375]LogPlayLevel: PIE: World Init took: (0.000913s)
+[2023.01.18-18.34.02:386][375]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003877s)
+[2023.01.18-18.34.02:401][375]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2023.01.18-18.34.02:402][375]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2023.01.18-18.34.02:402][375]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.18-18.34.02:402][375]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.18-18.34.02:402][375]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.18-18.34.02:402][375]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.18-18.34.02:402][375]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.18-18.34.02:402][375]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.01.18-18.34.02:402][375]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.18-18.34.02:402][375]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.18-18.34.02:402][375]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.18-18.34.02:402][375]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.18-18.34.02:402][375]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.18-18.34.02:402][375]LogAudioMixer: Display: Initializing audio mixer.
+[2023.01.18-18.34.02:407][375]LogAudioMixer: Display: 0: FrontLeft
+[2023.01.18-18.34.02:407][375]LogAudioMixer: Display: 1: FrontRight
+[2023.01.18-18.34.02:418][375]LogAudioMixer: Display: Using Audio Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2023.01.18-18.34.02:418][375]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.18-18.34.02:418][375]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.18-18.34.02:418][375]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.18-18.34.02:419][375]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.01.18-18.34.02:419][375]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.01.18-18.34.02:419][375]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.01.18-18.34.02:420][375]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.01.18-18.34.02:420][375]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.01.18-18.34.02:420][375]LogInit: FAudioDevice initialized.
+[2023.01.18-18.34.02:420][375]LogAudio: Display: Audio Device (ID: 14) registered with world 'Minimal_Default'.
+[2023.01.18-18.34.02:426][375]LogLoad: Game class is 'GameModeBase'
+[2023.01.18-18.34.02:427][375]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2023.01.18-19.34.02
+[2023.01.18-18.34.02:427][375]LogWorld: Bringing up level for play took: 0.000444
+[2023.01.18-18.34.02:427][375]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2023.01.18-18.34.02:428][375]PIE: Server logged in
+[2023.01.18-18.34.02:429][375]PIE: Play in editor total start time 0,077 seconds.
+[2023.01.18-18.34.08:904][146]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.18-18.34.08:904][146]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2023.01.18-18.34.08:904][146]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2023.01.18-18.34.08:904][146]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.18-18.34.08:909][146]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.18-18.34.08:919][146]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.18-18.34.08:932][146]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.18-18.34.08:933][146]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.01.18-18.34.08:933][146]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.01.18-18.34.08:938][146]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2023.01.18-18.34.08:977][148]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2023.01.18-18.34.12:406][467]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2023.01.18-18.34.12:417][467]LogSavePackage: Moving '../../../../../../Users/PC/Documents/GitHub/Projekt1---labirynt-z-kulk-/NiePatrycjaPilarz/Saved/Minimal_DefaultA713FFE64016669A915356A8ED449779.tmp' to '../../../../../../Users/PC/Documents/GitHub/Projekt1---labirynt-z-kulk-/NiePatrycjaPilarz/Content/StarterContent/Maps/Minimal_Default.umap'
+[2023.01.18-18.34.12:444][467]LogSavePackage: Moving '../../../../../../Users/PC/Documents/GitHub/Projekt1---labirynt-z-kulk-/NiePatrycjaPilarz/Saved/Minimal_Default_BuiltDataEC5D70574C32AB04E58F35A9B8A98CE3.tmp' to '../../../../../../Users/PC/Documents/GitHub/Projekt1---labirynt-z-kulk-/NiePatrycjaPilarz/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2023.01.18-18.34.12:452][467]AssetCheck: New page: Asset Save: multiple assets
+[2023.01.18-18.34.12:452][467]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData
+[2023.01.18-18.34.12:452][467]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Minimal_Default.Minimal_Default
+[2023.01.18-18.34.21:905][395]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2023.01.18-18.34.32:578][937]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Maze2)
+[2023.01.18-18.34.52:926][ 28]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2023.01.18-18.34.52:937][ 28]LogSavePackage: Moving '../../../../../../Users/PC/Documents/GitHub/Projekt1---labirynt-z-kulk-/NiePatrycjaPilarz/Saved/Minimal_Default241258AB4C6903A13DAFA599E5E14856.tmp' to '../../../../../../Users/PC/Documents/GitHub/Projekt1---labirynt-z-kulk-/NiePatrycjaPilarz/Content/StarterContent/Maps/Minimal_Default.umap'
+[2023.01.18-18.34.52:940][ 28]LogFileHelpers: Saving map 'Minimal_Default' took 0.031
+[2023.01.18-18.34.52:947][ 28]AssetCheck: New page: Asset Save: Minimal_Default
+[2023.01.18-18.34.52:947][ 28]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Minimal_Default.Minimal_Default
+[2023.01.18-18.34.53:319][ 71]LogTemp: Repeating last play command: Selected Viewport
+[2023.01.18-18.34.53:323][ 71]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.01.18-18.34.53:324][ 71]LogPlayLevel: [PlayLevel] Compiling Minimal_Default before play...
+[2023.01.18-18.34.53:353][ 71]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2023.01.18-18.34.53:353][ 71]LogPlayLevel: PlayLevel: Blueprint regeneration took 29 ms (1 blueprints)
+[2023.01.18-18.34.53:353][ 71]PIE: New page: PIE session: Minimal_Default (18 sty 2023, 20:34:53)
+[2023.01.18-18.34.53:393][ 71]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2023.01.18-18.34.53:395][ 71]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002612s)
+[2023.01.18-18.34.53:396][ 71]LogAIModule: Creating AISystem for world Minimal_Default
+[2023.01.18-18.34.53:396][ 71]LogPlayLevel: PIE: World Init took: (0.000869s)
+[2023.01.18-18.34.53:396][ 71]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003582s)
+[2023.01.18-18.34.53:412][ 71]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2023.01.18-18.34.53:412][ 71]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2023.01.18-18.34.53:412][ 71]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.18-18.34.53:412][ 71]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.18-18.34.53:412][ 71]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.18-18.34.53:412][ 71]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.18-18.34.53:412][ 71]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.18-18.34.53:412][ 71]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.01.18-18.34.53:412][ 71]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.18-18.34.53:412][ 71]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.18-18.34.53:412][ 71]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.18-18.34.53:412][ 71]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.18-18.34.53:412][ 71]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.18-18.34.53:412][ 71]LogAudioMixer: Display: Initializing audio mixer.
+[2023.01.18-18.34.53:417][ 71]LogAudioMixer: Display: 0: FrontLeft
+[2023.01.18-18.34.53:417][ 71]LogAudioMixer: Display: 1: FrontRight
+[2023.01.18-18.34.53:428][ 71]LogAudioMixer: Display: Using Audio Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2023.01.18-18.34.53:428][ 71]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.18-18.34.53:428][ 71]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.18-18.34.53:428][ 71]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.18-18.34.53:428][ 71]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.01.18-18.34.53:428][ 71]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.01.18-18.34.53:428][ 71]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.01.18-18.34.53:429][ 71]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.01.18-18.34.53:429][ 71]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.01.18-18.34.53:429][ 71]LogInit: FAudioDevice initialized.
+[2023.01.18-18.34.53:429][ 71]LogAudio: Display: Audio Device (ID: 15) registered with world 'Minimal_Default'.
+[2023.01.18-18.34.53:440][ 71]LogLoad: Game class is 'GameModeBase'
+[2023.01.18-18.34.53:440][ 71]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2023.01.18-19.34.53
+[2023.01.18-18.34.53:440][ 71]LogWorld: Bringing up level for play took: 0.000514
+[2023.01.18-18.34.53:441][ 71]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2023.01.18-18.34.53:442][ 71]PIE: Server logged in
+[2023.01.18-18.34.53:443][ 71]PIE: Play in editor total start time 0,12 seconds.
+[2023.01.18-18.35.01:363][997]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.18-18.35.01:363][997]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2023.01.18-18.35.01:364][997]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2023.01.18-18.35.01:364][997]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.18-18.35.01:370][997]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.18-18.35.01:383][997]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.18-18.35.01:397][997]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.18-18.35.01:397][997]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.01.18-18.35.01:398][997]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.01.18-18.35.01:402][997]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2023.01.18-18.35.01:452][999]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2023.01.18-18.35.09:010][740]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2023.01.18-18.35.09:021][740]LogSavePackage: Moving '../../../../../../Users/PC/Documents/GitHub/Projekt1---labirynt-z-kulk-/NiePatrycjaPilarz/Saved/Minimal_Default0898CF8A4F7B6A7014C45DB54847C43D.tmp' to '../../../../../../Users/PC/Documents/GitHub/Projekt1---labirynt-z-kulk-/NiePatrycjaPilarz/Content/StarterContent/Maps/Minimal_Default.umap'
+[2023.01.18-18.35.09:024][740]LogFileHelpers: Saving map 'Minimal_Default' took 0.031
+[2023.01.18-18.35.09:031][740]AssetCheck: New page: Asset Save: Minimal_Default
+[2023.01.18-18.35.09:031][740]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Minimal_Default.Minimal_Default
+[2023.01.18-18.35.10:640][922]LogTemp: Repeating last play command: Selected Viewport
+[2023.01.18-18.35.10:644][922]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.01.18-18.35.10:645][922]LogPlayLevel: [PlayLevel] Compiling Minimal_Default before play...
+[2023.01.18-18.35.10:673][922]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2023.01.18-18.35.10:674][922]LogPlayLevel: PlayLevel: Blueprint regeneration took 28 ms (1 blueprints)
+[2023.01.18-18.35.10:674][922]PIE: New page: PIE session: Minimal_Default (18 sty 2023, 20:35:10)
+[2023.01.18-18.35.10:713][922]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2023.01.18-18.35.10:715][922]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002517s)
+[2023.01.18-18.35.10:716][922]LogAIModule: Creating AISystem for world Minimal_Default
+[2023.01.18-18.35.10:716][922]LogPlayLevel: PIE: World Init took: (0.000759s)
+[2023.01.18-18.35.10:716][922]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003385s)
+[2023.01.18-18.35.10:731][922]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2023.01.18-18.35.10:731][922]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2023.01.18-18.35.10:731][922]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.18-18.35.10:731][922]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.18-18.35.10:731][922]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.18-18.35.10:731][922]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.18-18.35.10:731][922]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.18-18.35.10:731][922]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.01.18-18.35.10:731][922]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.18-18.35.10:731][922]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.18-18.35.10:731][922]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.18-18.35.10:731][922]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.18-18.35.10:731][922]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.18-18.35.10:731][922]LogAudioMixer: Display: Initializing audio mixer.
+[2023.01.18-18.35.10:736][922]LogAudioMixer: Display: 0: FrontLeft
+[2023.01.18-18.35.10:736][922]LogAudioMixer: Display: 1: FrontRight
+[2023.01.18-18.35.10:746][922]LogAudioMixer: Display: Using Audio Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2023.01.18-18.35.10:746][922]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.18-18.35.10:747][922]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.18-18.35.10:747][922]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.18-18.35.10:747][922]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.01.18-18.35.10:747][922]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.01.18-18.35.10:747][922]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.01.18-18.35.10:747][922]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.01.18-18.35.10:747][922]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.01.18-18.35.10:747][922]LogInit: FAudioDevice initialized.
+[2023.01.18-18.35.10:747][922]LogAudio: Display: Audio Device (ID: 16) registered with world 'Minimal_Default'.
+[2023.01.18-18.35.10:758][922]LogLoad: Game class is 'GameModeBase'
+[2023.01.18-18.35.10:759][922]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2023.01.18-19.35.10
+[2023.01.18-18.35.10:759][922]LogWorld: Bringing up level for play took: 0.000545
+[2023.01.18-18.35.10:759][922]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2023.01.18-18.35.10:761][922]PIE: Server logged in
+[2023.01.18-18.35.10:761][922]PIE: Play in editor total start time 0,117 seconds.
+[2023.01.18-18.35.22:264][286]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.18-18.35.22:264][286]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2023.01.18-18.35.22:264][286]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2023.01.18-18.35.22:264][286]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.18-18.35.22:271][286]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.18-18.35.22:284][286]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.18-18.35.22:298][286]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.18-18.35.22:298][286]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.01.18-18.35.22:299][286]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.01.18-18.35.22:303][286]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2023.01.18-18.35.22:330][287]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2023.01.18-18.35.28:017][942]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2023.01.18-18.35.29:115][ 71]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.01.18-18.35.29:626][130]LogTemp: Repeating last play command: Selected Viewport
+[2023.01.18-18.35.29:630][130]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.18-18.35.29:630][130]PIE: New page: PIE session: Minimal_Default (18 sty 2023, 20:35:29)
+[2023.01.18-18.35.29:664][130]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2023.01.18-18.35.29:666][130]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002652s)
+[2023.01.18-18.35.29:667][130]LogAIModule: Creating AISystem for world Minimal_Default
+[2023.01.18-18.35.29:667][130]LogPlayLevel: PIE: World Init took: (0.000895s)
+[2023.01.18-18.35.29:667][130]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003674s)
+[2023.01.18-18.35.29:682][130]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2023.01.18-18.35.29:682][130]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2023.01.18-18.35.29:682][130]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.18-18.35.29:682][130]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.18-18.35.29:682][130]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.18-18.35.29:682][130]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.18-18.35.29:682][130]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.18-18.35.29:682][130]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.01.18-18.35.29:682][130]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.18-18.35.29:682][130]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.18-18.35.29:682][130]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.18-18.35.29:682][130]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.18-18.35.29:682][130]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.18-18.35.29:682][130]LogAudioMixer: Display: Initializing audio mixer.
+[2023.01.18-18.35.29:687][130]LogAudioMixer: Display: 0: FrontLeft
+[2023.01.18-18.35.29:687][130]LogAudioMixer: Display: 1: FrontRight
+[2023.01.18-18.35.29:697][130]LogAudioMixer: Display: Using Audio Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2023.01.18-18.35.29:698][130]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.18-18.35.29:698][130]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.18-18.35.29:698][130]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.18-18.35.29:698][130]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.01.18-18.35.29:698][130]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.01.18-18.35.29:698][130]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.01.18-18.35.29:699][130]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.01.18-18.35.29:699][130]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.01.18-18.35.29:699][130]LogInit: FAudioDevice initialized.
+[2023.01.18-18.35.29:699][130]LogAudio: Display: Audio Device (ID: 17) registered with world 'Minimal_Default'.
+[2023.01.18-18.35.29:705][130]LogLoad: Game class is 'GameModeBase'
+[2023.01.18-18.35.29:706][130]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2023.01.18-19.35.29
+[2023.01.18-18.35.29:706][130]LogWorld: Bringing up level for play took: 0.000463
+[2023.01.18-18.35.29:706][130]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2023.01.18-18.35.29:708][130]PIE: Server logged in
+[2023.01.18-18.35.29:708][130]PIE: Play in editor total start time 0,079 seconds.
+[2023.01.18-18.35.34:713][724]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.18-18.35.34:713][724]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2023.01.18-18.35.34:713][724]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2023.01.18-18.35.34:713][724]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.18-18.35.34:720][724]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.18-18.35.34:730][724]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.18-18.35.34:744][724]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.18-18.35.34:744][724]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.01.18-18.35.34:745][724]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.01.18-18.35.34:749][724]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2023.01.18-18.35.34:796][726]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2023.01.18-18.35.38:803][201]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.01.18-18.35.39:469][279]LogTemp: Repeating last play command: Selected Viewport
+[2023.01.18-18.35.39:473][279]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.18-18.35.39:473][279]PIE: New page: PIE session: Minimal_Default (18 sty 2023, 20:35:39)
+[2023.01.18-18.35.39:493][279]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2023.01.18-18.35.39:496][279]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002472s)
+[2023.01.18-18.35.39:496][279]LogAIModule: Creating AISystem for world Minimal_Default
+[2023.01.18-18.35.39:496][279]LogPlayLevel: PIE: World Init took: (0.000803s)
+[2023.01.18-18.35.39:496][279]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003381s)
+[2023.01.18-18.35.39:511][279]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2023.01.18-18.35.39:512][279]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2023.01.18-18.35.39:512][279]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.18-18.35.39:512][279]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.18-18.35.39:512][279]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.18-18.35.39:512][279]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.18-18.35.39:512][279]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.18-18.35.39:512][279]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.01.18-18.35.39:512][279]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.18-18.35.39:512][279]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.18-18.35.39:513][279]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.18-18.35.39:513][279]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.18-18.35.39:513][279]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.18-18.35.39:513][279]LogAudioMixer: Display: Initializing audio mixer.
+[2023.01.18-18.35.39:517][279]LogAudioMixer: Display: 0: FrontLeft
+[2023.01.18-18.35.39:517][279]LogAudioMixer: Display: 1: FrontRight
+[2023.01.18-18.35.39:528][279]LogAudioMixer: Display: Using Audio Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2023.01.18-18.35.39:528][279]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.18-18.35.39:528][279]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.18-18.35.39:528][279]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.18-18.35.39:528][279]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.01.18-18.35.39:528][279]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.01.18-18.35.39:528][279]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.01.18-18.35.39:529][279]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.01.18-18.35.39:529][279]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.01.18-18.35.39:529][279]LogInit: FAudioDevice initialized.
+[2023.01.18-18.35.39:529][279]LogAudio: Display: Audio Device (ID: 18) registered with world 'Minimal_Default'.
+[2023.01.18-18.35.39:535][279]LogLoad: Game class is 'GameModeBase'
+[2023.01.18-18.35.39:536][279]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2023.01.18-19.35.39
+[2023.01.18-18.35.39:536][279]LogWorld: Bringing up level for play took: 0.000439
+[2023.01.18-18.35.39:536][279]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2023.01.18-18.35.39:537][279]PIE: Server logged in
+[2023.01.18-18.35.39:538][279]PIE: Play in editor total start time 0,066 seconds.
+[2023.01.18-18.35.40:444][382]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.18-18.35.40:444][382]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2023.01.18-18.35.40:444][382]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2023.01.18-18.35.40:444][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.18-18.35.40:453][382]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.18-18.35.40:463][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.18-18.35.40:476][382]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.18-18.35.40:477][382]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.01.18-18.35.40:477][382]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.01.18-18.35.40:481][382]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2023.01.18-18.35.40:522][384]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2023.01.18-18.35.43:765][767]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.01.18-18.35.44:277][827]LogTemp: Repeating last play command: Selected Viewport
+[2023.01.18-18.35.44:281][827]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.18-18.35.44:281][827]PIE: New page: PIE session: Minimal_Default (18 sty 2023, 20:35:44)
+[2023.01.18-18.35.44:313][827]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2023.01.18-18.35.44:316][827]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002826s)
+[2023.01.18-18.35.44:317][827]LogAIModule: Creating AISystem for world Minimal_Default
+[2023.01.18-18.35.44:317][827]LogPlayLevel: PIE: World Init took: (0.000926s)
+[2023.01.18-18.35.44:317][827]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003863s)
+[2023.01.18-18.35.44:332][827]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2023.01.18-18.35.44:333][827]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2023.01.18-18.35.44:333][827]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.18-18.35.44:333][827]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.18-18.35.44:333][827]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.18-18.35.44:333][827]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.18-18.35.44:333][827]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.18-18.35.44:333][827]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.01.18-18.35.44:333][827]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.18-18.35.44:333][827]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.18-18.35.44:333][827]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.18-18.35.44:333][827]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.18-18.35.44:333][827]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.18-18.35.44:333][827]LogAudioMixer: Display: Initializing audio mixer.
+[2023.01.18-18.35.44:337][827]LogAudioMixer: Display: 0: FrontLeft
+[2023.01.18-18.35.44:337][827]LogAudioMixer: Display: 1: FrontRight
+[2023.01.18-18.35.44:348][827]LogAudioMixer: Display: Using Audio Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2023.01.18-18.35.44:348][827]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.18-18.35.44:348][827]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.18-18.35.44:348][827]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.18-18.35.44:349][827]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.01.18-18.35.44:349][827]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.01.18-18.35.44:349][827]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.01.18-18.35.44:350][827]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.01.18-18.35.44:350][827]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.01.18-18.35.44:350][827]LogInit: FAudioDevice initialized.
+[2023.01.18-18.35.44:350][827]LogAudio: Display: Audio Device (ID: 19) registered with world 'Minimal_Default'.
+[2023.01.18-18.35.44:356][827]LogLoad: Game class is 'GameModeBase'
+[2023.01.18-18.35.44:357][827]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2023.01.18-19.35.44
+[2023.01.18-18.35.44:357][827]LogWorld: Bringing up level for play took: 0.000462
+[2023.01.18-18.35.44:358][827]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2023.01.18-18.35.44:359][827]PIE: Server logged in
+[2023.01.18-18.35.44:360][827]PIE: Play in editor total start time 0,079 seconds.
+[2023.01.18-18.35.45:504][957]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.18-18.35.45:504][957]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2023.01.18-18.35.45:504][957]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2023.01.18-18.35.45:504][957]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.18-18.35.45:510][957]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.18-18.35.45:520][957]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.18-18.35.45:533][957]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.18-18.35.45:533][957]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.01.18-18.35.45:534][957]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.01.18-18.35.45:537][957]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2023.01.18-18.35.45:581][959]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2023.01.18-18.35.48:508][305]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.01.18-18.35.49:519][416]LogTemp: Repeating last play command: Selected Viewport
+[2023.01.18-18.35.49:522][416]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.18-18.35.49:522][416]PIE: New page: PIE session: Minimal_Default (18 sty 2023, 20:35:49)
+[2023.01.18-18.35.49:543][416]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2023.01.18-18.35.49:545][416]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002532s)
+[2023.01.18-18.35.49:546][416]LogAIModule: Creating AISystem for world Minimal_Default
+[2023.01.18-18.35.49:546][416]LogPlayLevel: PIE: World Init took: (0.000806s)
+[2023.01.18-18.35.49:546][416]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003437s)
+[2023.01.18-18.35.49:561][416]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2023.01.18-18.35.49:562][416]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2023.01.18-18.35.49:562][416]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.18-18.35.49:562][416]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.18-18.35.49:562][416]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.18-18.35.49:562][416]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.18-18.35.49:562][416]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.18-18.35.49:562][416]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.01.18-18.35.49:562][416]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.18-18.35.49:562][416]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.18-18.35.49:563][416]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.18-18.35.49:563][416]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.18-18.35.49:563][416]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.18-18.35.49:563][416]LogAudioMixer: Display: Initializing audio mixer.
+[2023.01.18-18.35.49:567][416]LogAudioMixer: Display: 0: FrontLeft
+[2023.01.18-18.35.49:567][416]LogAudioMixer: Display: 1: FrontRight
+[2023.01.18-18.35.49:578][416]LogAudioMixer: Display: Using Audio Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2023.01.18-18.35.49:578][416]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.18-18.35.49:578][416]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.18-18.35.49:578][416]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.18-18.35.49:578][416]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.01.18-18.35.49:578][416]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.01.18-18.35.49:578][416]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.01.18-18.35.49:579][416]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.01.18-18.35.49:579][416]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.01.18-18.35.49:579][416]LogInit: FAudioDevice initialized.
+[2023.01.18-18.35.49:579][416]LogAudio: Display: Audio Device (ID: 20) registered with world 'Minimal_Default'.
+[2023.01.18-18.35.49:583][416]LogLoad: Game class is 'GameModeBase'
+[2023.01.18-18.35.49:584][416]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2023.01.18-19.35.49
+[2023.01.18-18.35.49:584][416]LogWorld: Bringing up level for play took: 0.000444
+[2023.01.18-18.35.49:584][416]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2023.01.18-18.35.49:586][416]PIE: Server logged in
+[2023.01.18-18.35.49:586][416]PIE: Play in editor total start time 0,065 seconds.
+[2023.01.18-18.35.50:344][502]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.18-18.35.50:344][502]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2023.01.18-18.35.50:344][502]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2023.01.18-18.35.50:344][502]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.18-18.35.50:349][502]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.18-18.35.50:359][502]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.18-18.35.50:372][502]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.18-18.35.50:373][502]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.01.18-18.35.50:373][502]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.01.18-18.35.50:378][502]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2023.01.18-18.35.50:419][504]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2023.01.18-18.35.52:970][800]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.01.18-18.35.53:402][850]LogTemp: Repeating last play command: Selected Viewport
+[2023.01.18-18.35.53:405][850]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.18-18.35.53:406][850]PIE: New page: PIE session: Minimal_Default (18 sty 2023, 20:35:53)
+[2023.01.18-18.35.53:443][850]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2023.01.18-18.35.53:446][850]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002602s)
+[2023.01.18-18.35.53:446][850]LogAIModule: Creating AISystem for world Minimal_Default
+[2023.01.18-18.35.53:446][850]LogPlayLevel: PIE: World Init took: (0.000783s)
+[2023.01.18-18.35.53:446][850]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003493s)
+[2023.01.18-18.35.53:461][850]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2023.01.18-18.35.53:462][850]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2023.01.18-18.35.53:462][850]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.18-18.35.53:462][850]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.18-18.35.53:462][850]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.18-18.35.53:462][850]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.18-18.35.53:462][850]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.18-18.35.53:462][850]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.01.18-18.35.53:462][850]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.18-18.35.53:462][850]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.18-18.35.53:463][850]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.18-18.35.53:463][850]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.18-18.35.53:463][850]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.18-18.35.53:463][850]LogAudioMixer: Display: Initializing audio mixer.
+[2023.01.18-18.35.53:467][850]LogAudioMixer: Display: 0: FrontLeft
+[2023.01.18-18.35.53:467][850]LogAudioMixer: Display: 1: FrontRight
+[2023.01.18-18.35.53:478][850]LogAudioMixer: Display: Using Audio Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2023.01.18-18.35.53:478][850]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.18-18.35.53:478][850]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.18-18.35.53:478][850]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.18-18.35.53:478][850]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.01.18-18.35.53:478][850]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.01.18-18.35.53:478][850]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.01.18-18.35.53:479][850]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.01.18-18.35.53:479][850]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.01.18-18.35.53:479][850]LogInit: FAudioDevice initialized.
+[2023.01.18-18.35.53:479][850]LogAudio: Display: Audio Device (ID: 21) registered with world 'Minimal_Default'.
+[2023.01.18-18.35.53:484][850]LogLoad: Game class is 'GameModeBase'
+[2023.01.18-18.35.53:485][850]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2023.01.18-19.35.53
+[2023.01.18-18.35.53:485][850]LogWorld: Bringing up level for play took: 0.000443
+[2023.01.18-18.35.53:485][850]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2023.01.18-18.35.53:487][850]PIE: Server logged in
+[2023.01.18-18.35.53:487][850]PIE: Play in editor total start time 0,082 seconds.
+[2023.01.18-18.36.06:154][361]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.18-18.36.06:154][361]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2023.01.18-18.36.06:154][361]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2023.01.18-18.36.06:154][361]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.18-18.36.06:162][361]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.18-18.36.06:172][361]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.18-18.36.06:186][361]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.18-18.36.06:186][361]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.01.18-18.36.06:187][361]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.01.18-18.36.06:191][361]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2023.01.18-18.36.06:212][362]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2023.01.18-18.36.09:724][764]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.01.18-18.36.10:245][825]LogTemp: Repeating last play command: Selected Viewport
+[2023.01.18-18.36.10:248][825]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.18-18.36.10:248][825]PIE: New page: PIE session: Minimal_Default (18 sty 2023, 20:36:10)
+[2023.01.18-18.36.10:283][825]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2023.01.18-18.36.10:286][825]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002534s)
+[2023.01.18-18.36.10:286][825]LogAIModule: Creating AISystem for world Minimal_Default
+[2023.01.18-18.36.10:287][825]LogPlayLevel: PIE: World Init took: (0.000879s)
+[2023.01.18-18.36.10:287][825]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003537s)
+[2023.01.18-18.36.10:301][825]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2023.01.18-18.36.10:302][825]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2023.01.18-18.36.10:302][825]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.18-18.36.10:302][825]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.18-18.36.10:302][825]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.18-18.36.10:302][825]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.18-18.36.10:302][825]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.18-18.36.10:302][825]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.01.18-18.36.10:302][825]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.18-18.36.10:302][825]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.18-18.36.10:303][825]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.18-18.36.10:303][825]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.18-18.36.10:303][825]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.18-18.36.10:303][825]LogAudioMixer: Display: Initializing audio mixer.
+[2023.01.18-18.36.10:307][825]LogAudioMixer: Display: 0: FrontLeft
+[2023.01.18-18.36.10:307][825]LogAudioMixer: Display: 1: FrontRight
+[2023.01.18-18.36.10:318][825]LogAudioMixer: Display: Using Audio Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2023.01.18-18.36.10:318][825]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.18-18.36.10:318][825]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.18-18.36.10:318][825]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.18-18.36.10:318][825]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.01.18-18.36.10:318][825]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.01.18-18.36.10:318][825]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.01.18-18.36.10:319][825]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.01.18-18.36.10:319][825]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.01.18-18.36.10:319][825]LogInit: FAudioDevice initialized.
+[2023.01.18-18.36.10:319][825]LogAudio: Display: Audio Device (ID: 22) registered with world 'Minimal_Default'.
+[2023.01.18-18.36.10:323][825]LogLoad: Game class is 'GameModeBase'
+[2023.01.18-18.36.10:324][825]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2023.01.18-19.36.10
+[2023.01.18-18.36.10:324][825]LogWorld: Bringing up level for play took: 0.000458
+[2023.01.18-18.36.10:324][825]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2023.01.18-18.36.10:326][825]PIE: Server logged in
+[2023.01.18-18.36.10:326][825]PIE: Play in editor total start time 0,078 seconds.
+[2023.01.18-18.36.11:453][953]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.18-18.36.11:453][953]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2023.01.18-18.36.11:453][953]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2023.01.18-18.36.11:453][953]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.18-18.36.11:464][953]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.18-18.36.11:474][953]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.18-18.36.11:488][953]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.18-18.36.11:488][953]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.01.18-18.36.11:489][953]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.01.18-18.36.11:493][953]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2023.01.18-18.36.11:513][954]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2023.01.18-18.36.12:678][ 80]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2023.01.18-18.36.12:689][ 80]LogSavePackage: Moving '../../../../../../Users/PC/Documents/GitHub/Projekt1---labirynt-z-kulk-/NiePatrycjaPilarz/Saved/Minimal_DefaultB5F369894DCB506E10F546AFA2EE6E10.tmp' to '../../../../../../Users/PC/Documents/GitHub/Projekt1---labirynt-z-kulk-/NiePatrycjaPilarz/Content/StarterContent/Maps/Minimal_Default.umap'
+[2023.01.18-18.36.12:716][ 80]LogSavePackage: Moving '../../../../../../Users/PC/Documents/GitHub/Projekt1---labirynt-z-kulk-/NiePatrycjaPilarz/Saved/Minimal_Default_BuiltData39664CA84B6B1307E82B4EA04D143BA1.tmp' to '../../../../../../Users/PC/Documents/GitHub/Projekt1---labirynt-z-kulk-/NiePatrycjaPilarz/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2023.01.18-18.36.12:725][ 80]AssetCheck: New page: Asset Save: multiple assets
+[2023.01.18-18.36.12:725][ 80]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData
+[2023.01.18-18.36.12:725][ 80]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Minimal_Default.Minimal_Default
+[2023.01.18-18.38.47:370][449]LogSlate: Window 'Save Level As' being destroyed
+[2023.01.18-18.38.50:766][825]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2023.01.18-18.38.50:778][825]LogSavePackage: Moving '../../../../../../Users/PC/Documents/GitHub/Projekt1---labirynt-z-kulk-/NiePatrycjaPilarz/Saved/Minimal_Default5E48F0F74633AAD140E62A85E2961E35.tmp' to '../../../../../../Users/PC/Documents/GitHub/Projekt1---labirynt-z-kulk-/NiePatrycjaPilarz/Content/StarterContent/Maps/Minimal_Default.umap'
+[2023.01.18-18.38.50:806][825]LogSavePackage: Moving '../../../../../../Users/PC/Documents/GitHub/Projekt1---labirynt-z-kulk-/NiePatrycjaPilarz/Saved/Minimal_Default_BuiltData3152BA1F4AC7FA72C9E6039434CA4A45.tmp' to '../../../../../../Users/PC/Documents/GitHub/Projekt1---labirynt-z-kulk-/NiePatrycjaPilarz/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2023.01.18-18.38.50:816][825]AssetCheck: New page: Asset Save: multiple assets
+[2023.01.18-18.38.50:816][825]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData
+[2023.01.18-18.38.50:816][825]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Minimal_Default.Minimal_Default
