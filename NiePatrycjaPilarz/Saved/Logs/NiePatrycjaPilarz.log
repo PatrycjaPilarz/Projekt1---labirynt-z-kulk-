@@ -2477,3 +2477,15 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2023.01.18-18.38.50:816][825]AssetCheck: New page: Asset Save: multiple assets
 [2023.01.18-18.38.50:816][825]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData
 [2023.01.18-18.38.50:816][825]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Minimal_Default.Minimal_Default
+[2023.01.18-18.40.05:160][416]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2023.01.18-18.40.05:917][476]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2023.01.18-18.40.06:051][482]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2023.01.18-18.40.06:062][482]LogSavePackage: Moving '../../../../../../Users/PC/Documents/GitHub/Projekt1---labirynt-z-kulk-/NiePatrycjaPilarz/Saved/Minimal_Default31F8D2F64F04209447C6AFA6D7CB9B67.tmp' to '../../../../../../Users/PC/Documents/GitHub/Projekt1---labirynt-z-kulk-/NiePatrycjaPilarz/Content/StarterContent/Maps/Minimal_Default.umap'
+[2023.01.18-18.40.06:090][482]LogSavePackage: Moving '../../../../../../Users/PC/Documents/GitHub/Projekt1---labirynt-z-kulk-/NiePatrycjaPilarz/Saved/Minimal_Default_BuiltData6B4EA9124941DA9AC438E388F65883D0.tmp' to '../../../../../../Users/PC/Documents/GitHub/Projekt1---labirynt-z-kulk-/NiePatrycjaPilarz/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2023.01.18-18.40.06:099][482]AssetCheck: New page: Asset Save: multiple assets
+[2023.01.18-18.40.06:099][482]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData
+[2023.01.18-18.40.06:099][482]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Minimal_Default.Minimal_Default
+[2023.01.18-18.43.00:056][ 65]LogSlate: Window 'Minimal_Default' being destroyed
+[2023.01.18-18.43.00:059][ 65]LogSlate: Window 'Minimal_Default' being destroyed
+[2023.01.18-18.43.00:092][ 65]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2023.01.18-18.43.00:092][ 65]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
